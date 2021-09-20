@@ -2065,16 +2065,16 @@ print {
     display: inline-block;
 }
 
-.is-visiblePc {
-    display: block !important;
-}
-
 .is-visibleSp {
     display: none !important;
 }
 
 .is-visibleTablet {
     display: none !important;
+}
+
+.is-visiblePc {
+    display: block !important;
 }
 
 @media only screen and (min-width:1px) and (max-width:767px) {
@@ -2087,11 +2087,11 @@ print {
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
-    .is-visibleTablet {
-        display: block !important;
-    }
     .is-visiblePc {
         display: none !important;
+    }
+    .is-visibleTablet {
+        display: block !important;
     }
 }
 
@@ -2344,15 +2344,16 @@ print {
     .box-main-visual {
         height: 100%;
     }
-    .box-main-visual__background img {
-        margin-top: 40%;
+    .box-main-visual__background{
+        height: 540px;
     }
-}
-
-@media screen and (max-width: 640px) {
+    .box-main-visual__background img {
+        max-width: 78%;
+        margin: 235px 0 0 50px;
+    }
     .box-main-visual {
-        min-height: 540px;
-        height: auto;
+        box-sizing: border-box;
+        height: 540px;
     }
 }
 
@@ -2487,6 +2488,7 @@ print {
         width: auto;
     }
     .box-main-visual__subtitle--02 {
+        top: 33%;
         right: 14px;
     }
     .box-main-visual__subtitle--02 img {
@@ -2495,7 +2497,8 @@ print {
         width: auto;
     }
     .box-main-visual__logo {
-        max-width: 43.1%;
+        max-width: 46%;
+        top: 16%;
     }
     .box-main-visual__scroll {
         bottom: 26px;
@@ -3005,6 +3008,8 @@ print {
 }
 
 .box-movies ul li {
+    width: 50%;
+    box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 58px;
@@ -3569,6 +3574,34 @@ print {
     .box-job__item__ttl01 img {
         width: 203px
     }
+    .box-job__lst--feature{
+        padding-bottom: 0;
+    }
+    .box-job__lst--feature .box-job__item__img{
+        order: 1;
+    }
+    .box-job__lst--feature .box-job__item__detail{
+        order: 2;
+    }
+    .box-job__lst--feature .box-job__item__ttl01{
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .box-job__lst--feature .box-job__item__ttl01 img{
+        width: 100%;
+    }
+    .box-job__message{
+        padding-top: 15px;
+        border-top: 1px solid #a3cfec;
+    }
+    .box-job__message__image{
+        width: 60px;
+    }
+    .box-job__message__text{
+        width: calc(100% - 70px);
+        font-size: 11px;
+        text-align: left;
+    }
 }
 
 /* box-contact */
@@ -3679,6 +3712,7 @@ print {
 @media screen and (max-width: 767px) {
     .box-contact {
         margin-top: 50px;
+        margin-bottom: 125px;
     }
     .box-contact__inner {
         z-index: 3;
@@ -4009,7 +4043,7 @@ print {
         margin-top: 32px;
     }
     .box-review .box-title-lead__title img {
-        width: 200px;
+        width: 80px;
     }
     .box-review__img {
         padding: 0 10px;
