@@ -2326,9 +2326,9 @@ print {
 }
 
 .box-main-visual__background img {
-    max-width: 46%;
+    max-width: 65.76%;
     position: relative;
-    margin: 250px auto 5%;
+    margin: 280px auto auto;
     backface-visibility: hidden;
     -webkit-backface-visiblity: hidden;
 }
@@ -2389,7 +2389,7 @@ print {
     top: 12.1%;
     left: 50%;
     transform: translateX(-50%);
-    width: 65.6%
+    width: 65.64%
 }
 
 .box-main-visual__scroll {
