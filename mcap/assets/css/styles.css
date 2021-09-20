@@ -2984,10 +2984,16 @@ print {
     text-align: center;
 }
 
-.lst-movies.wrp-grid {
+.lst-movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 65px;
     margin-left: -15px;
     margin-right: -15px;
+}
+.lst-movies + .box-txt__note{
+    text-align: center;
 }
 
 .box-movies__lbl+.lst-movies {
@@ -3570,6 +3576,7 @@ print {
 .box-contact {
     margin-top: 85px;
     position: relative;
+    margin-bottom: 250px;
 }
 
 .box-contact:before {
