@@ -3386,6 +3386,9 @@ print {
     margin: 41px 40px 0;
     padding-bottom: 80px;
 }
+.box-job__lst--feature{
+    padding-bottom: 0;
+}
 
 .box-job__lst .box-job__item {
     display: flex;
@@ -3402,7 +3405,14 @@ print {
     padding-left: 28px;
     color: #231815;
 }
-
+.box-job__lst--feature .box-job__item__img{
+    order: 2;
+}
+.box-job__lst--feature .box-job__item__detail{
+    order: 1;
+    padding-left: 0;
+    padding-right: 28px;
+}
 .box-job__lst li+li {
     margin-top: 28px;
 }
@@ -3433,7 +3443,26 @@ print {
     line-height: 1.85;
     padding-top: 3px;
 }
-
+.box-job__message{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 2px solid #a3cfec;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+.box-job__message__image{
+    display: inline-block;
+    width: 91px;
+}
+.box-job__message__text{
+    display: inline-block;
+    width: calc(100% - 125px);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #52a5dc;
+    font-weight: normal;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .box-job__inner {
         padding: 30px;
