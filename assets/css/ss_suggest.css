@@ -1,0 +1,53 @@
+/*
+* ss_suggest.css
+* http://www.syncsearch.jp/
+*
+* @version 1.0.0
+* @date 2017-07-05
+*/
+
+body {
+  background-color: #FFF;
+  color: #333;
+  font-family: Arial,sans-serif;
+  font-size: 0.85em;
+  direction: ltr;
+  text-align: left;
+  margin: 0;
+  padding: 0px;
+}
+
+div.ss-suggest {
+  background-color: #FFF;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  font-weight: normal;
+  padding: 0;
+  visibility: hidden;
+}
+
+div.ss-suggest div.ss-suggest-item {
+  border-top: 1px solid #CCC;
+  line-height: 115%;
+  padding: 3px 2px 2px 4px;
+}
+
+div.ss-suggest div.ss-suggest-item-off {
+  background-color: #FFF;
+}
+
+div.ss-suggest div.ss-suggest-item-on {
+  background-color: #ECF5FA;
+}
+
+div.ss-suggest span.ss-suggest-key {
+  vertical-align: bottom;
+  display: table-cell;
+  font-size: 100%;
+}
+
+body.ie8 div.ss-suggest span.ss-suggest-key,
+body.ie7 div.ss-suggest span.ss-suggest-key {
+  font-size: 100%;
+}

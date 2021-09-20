@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* international/ page Module
+* international/ ページ用
+-------------------------------------------------- */
+.p-international_efforts {
+  margin-top: 25px;
+  /* pc */
+}
+
+.p-international_efforts .m-hdg_lv2 {
+  margin: 45px 6.25% 30px;
+}
+
+.p-international_efforts_img_bg {
+  height: 35vh;
+  background: url("/assets/images/international/index/bg-efforts-sp.jpg") top center/cover no-repeat;
+}
+
+.p-international_efforts_img_txt {
+  position: relative;
+  margin: -39px 6.25% 0;
+  padding: 25px 20px;
+  background: #ffffff;
+  z-index: 5;
+}
+
+.p-international_efforts_img_txt_title {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.p-international_efforts_img_txt_sent {
+  font-size: 1.2rem;
+}
+
+.p-international_efforts_img_txt_btn .m-btn {
+  display: block;
+  max-width: 228px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .p-international_efforts {
+    margin: 90px auto 0;
+  }
+  .p-international_efforts .l-contents-thin {
+    overflow: hidden;
+  }
+  .p-international_efforts .m-hdg_lv2 {
+    margin: 90px 0 60px;
+  }
+  .p-international_efforts_img {
+    position: relative;
+    height: 505px;
+  }
+  .p-international_efforts_img_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 505px;
+    background: url("/assets/images/international/index/bg-efforts-pc.jpg") center center/cover no-repeat;
+  }
+  .p-international_efforts_img_txt {
+    width: 38%;
+    margin: 0;
+    padding: 60px;
+  }
+  .p-international_efforts_img_txt_title {
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  .p-international_efforts_img_txt_sent {
+    font-size: 1.6rem;
+  }
+  .p-international_efforts_img_txt_btn {
+    margin-top: 45px;
+    text-align: center;
+  }
+  .p-international_efforts_img_txt_btn .m-btn {
+    display: inline-block;
+    max-width: auto;
+  }
+}
+
+.p-international_situation {
+  position: relative;
+  margin-top: 25px;
+  padding-top: 200px;
+  /* pc */
+}
+
+.p-international_situation .m-box_table {
+  margin: 0;
+}
+
+.p-international_situation_item {
+  position: relative;
+  margin: 0 20px 70px;
+  padding-top: 50px;
+  border-bottom: 1px solid #efefef;
+  background: #ffffff;
+  z-index: 10;
+}
+
+.p-international_situation_head p {
+  line-height: 1em;
+}
+
+.p-international_situation_head p.p-international_situation_title {
+  margin-bottom: 20px;
+  line-height: 1.25em;
+}
+
+.p-international_situation_num {
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  margin-left: -35px;
+  padding-top: 16px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  background: #ebebeb;
+  border-radius: 35px;
+  font-family: YakuHanJP, "Oswald", sans-serif;
+  font-size: 7px;
+  color: #a4a4a4;
+}
+
+.p-international_situation_num span {
+  display: block;
+  padding-bottom: 4px;
+  font-size: 2.3rem;
+  line-height: 1em;
+  color: #b7193f;
+}
+
+.p-international_situation_title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.p-international_situation_content {
+  line-height: 1.4;
+}
+
+.p-international_situation_content .m-btn {
+  margin-bottom: 1.9em;
+}
+
+.p-international_situation_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+  background: url(/assets/images/international/index/bg-situation.jpg);
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .p-international_situation {
+    margin-top: 120px;
+    padding: 80px 0 10px;
+  }
+  .p-international_situation .m-box_table {
+    margin: 0 -25px;
+  }
+  .p-international_situation_item {
+    margin: 0 0 50px;
+    padding: 40px 30px 30px;
+  }
+  .p-international_situation_head {
+    padding-bottom: 10px;
+  }
+  .p-international_situation_head p.p-international_situation_title {
+    line-height: 1.5em;
+  }
+  .p-international_situation_title {
+    display: block;
+    vertical-align: middle;
+    padding: 0 20px 0 30px;
+    text-align: left;
+    line-height: 1.4;
+  }
+  .p-international_situation_num {
+    vertical-align: middle;
+    position: relative;
+    top: inherit;
+    left: inherit;
+    margin-bottom: 30px !important;
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    font-size: 1rem;
+  }
+  .p-international_situation_num span {
+    font-size: 3rem;
+  }
+  .p-international_situation_content {
+    padding: 0 20px;
+  }
+  .p-international_situation_content p:last-child {
+    margin-bottom: 0;
+  }
+  .p-international_situation_content .m-btn {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .p-international_situation_bg {
+    height: 100%;
+  }
+}

@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* /nagoyadome/xxx page Module
+* /nagoyadome/xxx ナゴヤドーム前共通ナビ用
+-------------------------------------------------- */
+.p-nagoyadome_lheader {
+  background-color: #f6f5f2;
+  text-align: center;
+  /* pc */
+}
+
+.p-nagoyadome_lheader > .l-contents {
+  margin-top: 0;
+}
+
+.p-nagoyadome_lheader-title {
+  padding: 20px 0 15px;
+  border-bottom: 2px solid #b7193f;
+  margin-bottom: 0 !important;
+}
+
+.p-nagoyadome_lheader-title img {
+  width: 150px;
+}
+
+.p-nagoyadome_lheader ul {
+  padding: 0 25px;
+  text-align: left;
+}
+
+.p-nagoyadome_lheader ul > li {
+  border-bottom: 1px solid #ddd;
+}
+
+.p-nagoyadome_lheader ul > li > a {
+  display: block;
+}
+
+.p-nagoyadome_lheader ul > li > a > span {
+  display: inline-block;
+  padding: 18px 0;
+  font-size: 14px;
+  position: relative;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+}
+
+.p-nagoyadome_lheader ul > li > a > span i {
+  color: #b7193f;
+}
+
+.p-nagoyadome_lheader ul > li > a > span:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #b7193f;
+  transform: scaleX(0);
+  transition: all 0.3s;
+}
+
+.p-nagoyadome_lheader ul > li.js-status-active > a > span:before {
+  transform: none;
+}
+
+.p-nagoyadome_lheader ul > li:last-child {
+  border-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .p-nagoyadome_lheader-title {
+    padding: 35px 0;
+  }
+  .p-nagoyadome_lheader-title img {
+    width: auto;
+  }
+  .p-nagoyadome_lheader ul {
+    padding: 0;
+    text-align: center;
+  }
+  .p-nagoyadome_lheader ul > li {
+    display: inline-block;
+    border-bottom: none;
+    padding: 0 27px;
+    position: relative;
+  }
+  .p-nagoyadome_lheader ul > li > a > span {
+    padding: 30px 0 35px;
+    font-size: 18px;
+  }
+  .p-nagoyadome_lheader ul > li > a > span:before {
+    height: 4px;
+  }
+  .p-nagoyadome_lheader ul > li > a > span:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  .p-nagoyadome_lheader ul > li > a > span:hover:before {
+    transform: none;
+  }
+  .p-nagoyadome_lheader ul > li:after {
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: 0;
+    display: block;
+    width: 1px;
+    height: 37px;
+    background: #ddd;
+  }
+  .p-nagoyadome_lheader ul > li:last-child:after {
+    content: none;
+  }
+}
+
+.p-nagoyadome_lfooter {
+  background-color: #f6f5f2;
+  padding-bottom: 5px;
+  margin-bottom: 60px;
+  /* pc */
+}
+
+.p-nagoyadome_lfooter-title {
+  border-top: 2px solid #b7193f;
+  color: #b7193f;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 26px;
+  line-height: 1.5 !important;
+  margin-bottom: 30px !important;
+}
+
+.p-nagoyadome_lfooter-box img {
+  width: 100%;
+}
+
+.p-nagoyadome_lfooter-box p {
+  background: #ffffff;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 20px;
+  font-weight: 500;
+}
+
+.p-nagoyadome_lfooter-box p i {
+  color: #b7193f;
+}
+
+@media (min-width: 992px) {
+  .p-nagoyadome_lfooter {
+    padding-bottom: 30px;
+    margin-bottom: 120px;
+  }
+  .p-nagoyadome_lfooter-title {
+    font-size: 23px;
+    padding-top: 70px;
+  }
+  .p-nagoyadome_lfooter-box p {
+    font-size: 14px;
+    line-height: 1.7;
+    padding: 20px 30px;
+  }
+}
+
+/* -----------------------------------------------
+* /nagoyadome/index.html page Module
+* /nagoyadome/index.html 学びの特色
+-------------------------------------------------- */
+.p-nagoyadome_indexbox {
+  margin-bottom: 60px;
+  /* pc */
+}
+
+.p-nagoyadome_indexbox_link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.p-nagoyadome_indexbox_link > li {
+  margin: 0 0 10px;
+  line-height: 1;
+  text-align: center;
+}
+
+.p-nagoyadome_indexbox_link > li > a {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .p-nagoyadome_indexbox {
+    margin-bottom: 130px;
+  }
+  .p-nagoyadome_indexbox_link {
+    margin-top: 60px;
+  }
+  .p-nagoyadome_indexbox_link > li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .p-nagoyadome_indexbox_link > li > a {
+    width: auto;
+  }
+}
+
+/* -----------------------------------------------
+* /nagoyadome/community.html page Module
+* /nagoyadome/community.html 学びのコミュニティ
+-------------------------------------------------- */
+.p-nagoyadome_community {
+  /* sp */
+  /* pc */
+}
+
+.p-nagoyadome_community_link_list {
+  display: inline-block;
+  text-align: center;
+  width: 33.333%;
+  float: left;
+}
+
+.p-nagoyadome_community_link_list p {
+  margin: 10px 0 0;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.p-nagoyadome_community_link_list a {
+  line-height: 1;
+}
+
+.p-nagoyadome_community_box h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 10px 0 10px;
+}
+
+.p-nagoyadome_community_box .category {
+  margin: 20px 0 10px;
+  font-size: 1.1rem;
+}
+
+.p-nagoyadome_community_box .category span {
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 4px;
+  border-radius: 3px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.p-nagoyadome_community_box .category span.foreign {
+  background: #f3d924;
+}
+
+.p-nagoyadome_community_box .category span.human {
+  background: #f16690;
+}
+
+.p-nagoyadome_community_box .category span.urban {
+  background: #40caca;
+}
+
+.p-nagoyadome_community_box .category span.campus {
+  background: #f19b81;
+}
+
+@media (max-width: 991px) {
+  .p-nagoyadome_community_link {
+    margin: 40px -10px 70px;
+  }
+  .p-nagoyadome_community_link_list {
+    position: relative;
+    padding: 0 10px 25px;
+  }
+  .p-nagoyadome_community_link_list a.m-btn {
+    font-size: 0;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .p-nagoyadome_community_link_list a.m-btn i {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .p-nagoyadome_community_link_list a.m-btn:hover {
+    background: none;
+    color: #b7193f !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .p-nagoyadome_community_link {
+    margin: 60px 0 120px;
+  }
+  .p-nagoyadome_community_link_list p {
+    margin: 20px 0 30px;
+    font-size: 20px;
+  }
+  .p-nagoyadome_community_box h4 {
+    font-size: 20px;
+  }
+  .p-nagoyadome_community_box .category {
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+  }
+  .p-nagoyadome_community_box .category span {
+    margin-right: 8px;
+    padding: 5px;
+  }
+}
+
+/* -----------------------------------------------
+* /nagoyadome/academics.html page Module
+* /nagoyadome/academics.html 構成学部・研究科
+-------------------------------------------------- */
+.p-nagoyadome_academics {
+  /* pc */
+}
+
+.p-nagoyadome_academics_link {
+  margin-bottom: 30px;
+}
+
+.p-nagoyadome_academics_link > div p {
+  margin: 0;
+}
+
+.p-nagoyadome_academics_link_foreign img {
+  width: 79px;
+}
+
+.p-nagoyadome_academics_link_human img {
+  width: 65px;
+}
+
+.p-nagoyadome_academics_link_urban img {
+  width: 84px;
+  margin-top: 8px;
+}
+
+.p-nagoyadome_academics_lastbox {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+  .p-nagoyadome_academics_link > div p {
+    margin: 0 0 15px;
+  }
+  .p-nagoyadome_academics_link_foreign img,
+  .p-nagoyadome_academics_link_human img,
+  .p-nagoyadome_academics_link_urban img {
+    width: auto;
+    margin-top: 0;
+  }
+  .p-nagoyadome_academics_lastbox {
+    margin-bottom: 120px;
+  }
+}
+
+.p-academics_toplist {
+  margin-top: 60px;
+  /* sp */
+  /* pc */
+}
+
+.p-academics_toplist_bg.p-nagoyadome_bg01 {
+  background: url(/assets/images/nagoyadome/bg-academics01.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.p-academics_toplist_bg.p-nagoyadome_bg02 {
+  background: url(/assets/images/nagoyadome/bg-academics02.jpg) center bottom no-repeat;
+  background-size: cover;
+}
+
+.p-academics_toplist_bg.p-nagoyadome_bg03 {
+  background: url(/assets/images/nagoyadome/bg-academics03.jpg) center no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  .p-academics_toplist_title_inner img.icon01 {
+    width: 86px;
+  }
+  .p-academics_toplist_title_inner img.icon02 {
+    width: 76px;
+  }
+  .p-academics_toplist_title_inner img.icon03 {
+    width: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .p-academics_toplist {
+    margin-top: 120px;
+  }
+  .p-academics_toplist_list_inner {
+    padding: 30px 100px 60px;
+  }
+}

@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* library/ page Module
+-------------------------------------------------- */
+.p-library {
+  /* pc */
+}
+
+.p-library_icon {
+  display: inline-block;
+  min-width: 50px;
+  padding: 5px 10px;
+  line-height: 1;
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.p-library_icon-incampus {
+  background: #7c7c7c;
+}
+
+.p-library_icon-library {
+  background: #a4082e;
+}
+
+.p-library_icon-free {
+  background: #155f9f;
+}
+
+@media (min-width: 992px) {
+  .p-library_icon {
+    min-width: 65px;
+    font-size: 1.5rem;
+  }
+}
+
+/* -----------------------------------------------
+* library/ page Module
+* library/ ページ用
+-------------------------------------------------- */
+.p-library_guide {
+  margin-bottom: 60px;
+  padding: 0 6.25%;
+  /* pc */
+  /* Tb */
+}
+
+.p-library_guide_item_wrap {
+  margin-bottom: 25px;
+  padding: 20px 25px;
+  color: #ffffff;
+  border-top: 4px solid #b7193f;
+}
+
+.p-library_guide_item_wrap-usage {
+  background: url(/assets/images/library/index/bg-usage.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.p-library_guide_item_wrap-search {
+  background: url(/assets/images/library/index/bg-search.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.p-library_guide_item_wrap-service {
+  background: url(/assets/images/library/index/bg-service.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.p-library_guide_item_wrap-data {
+  background: url(/assets/images/library/index/bg-data.jpg) top center no-repeat;
+  background-size: cover;
+}
+
+.p-library_guide_item_title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.p-library_guide_item .m-list_common {
+  margin-bottom: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.p-library_guide_item .m-list_common li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.p-library_guide_item .m-list_common li a {
+  padding: 10px 0 10px 1.2em;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.p-library_guide_item .m-list_common li a:before {
+  top: 10px;
+  color: #ffffff;
+}
+
+.p-library_guide_item .m-list_common li a:after {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .p-library_guide {
+    margin-bottom: 120px;
+    padding: 0;
+  }
+  .p-library_guide_list {
+    margin: 0 -8px;
+  }
+  .p-library_guide_list:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .p-library_guide_item {
+    padding: 0 8px;
+    width: 50%;
+    float: left;
+  }
+  .p-library_guide_item_wrap {
+    padding: 55px 45px 50px;
+    border-top: 8px solid #b7193f;
+  }
+  .p-library_guide_item_title {
+    font-size: 2rem;
+  }
+  .p-library_guide_item .m-list_common li a {
+    font-size: 1.6rem;
+  }
+  .p-library_guide_item .m-list_common li a:before {
+    top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .p-library_guide_item {
+    width: 25%;
+  }
+  .p-library_guide_item_wrap {
+    margin-bottom: 0;
+  }
+}
+
+.p-library_list {
+  padding: 1px 0 50px;
+  background: #f6f5f2;
+  /* Tb,PC */
+}
+
+.p-library_list ul li {
+  width: 100%;
+  margin: 0 0 40px;
+}
+
+.p-library_list_img img {
+  width: 100%;
+}
+
+.p-library_list_txt {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.p-library_list_txt p {
+  margin: 0;
+}
+
+.p-library_list_txt small {
+  font-size: 1.2rem;
+  display: block;
+}
+
+.p-library_list_txt a {
+  display: block;
+  font-size: 1.8rem;
+  color: #222222;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 0 0 1.2em;
+}
+
+.p-library_list_txt a:before {
+  content: "";
+  font-family: 'meijo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: absolute;
+  top: 1px;
+  left: -.2em;
+  color: #b7193f;
+  margin-top: .15em;
+}
+
+@media (min-width: 768px) {
+  .p-library_list {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .p-library_list ul li {
+    float: left;
+    width: 33.333%;
+    margin: 0 0 60px;
+  }
+  .p-library_list ul li:nth-child(3n) .p-library_list_txt {
+    border-right: none;
+  }
+  .p-library_list_img {
+    padding: 0 25px;
+  }
+  .p-library_list_txt {
+    border-right: solid 1px #dedede;
+    padding: 0 25px;
+  }
+}

@@ -1,0 +1,519 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* /search/index.html page Module
+* /search/index.html ページ用
+-------------------------------------------------- */
+#search {
+  /* pc */
+  /* pc */
+}
+
+#search .m-box_title {
+  background: #f6f5f2;
+  height: 155px;
+}
+
+#search .cms-tag > .l-contents {
+  margin-top: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  #search .m-box_title {
+    height: 268px;
+  }
+  #search .m-box_title_inner {
+    top: 120px;
+  }
+  #search .cms-tag > .l-contents {
+    margin-top: 0;
+  }
+}
+
+#search #ss-main {
+  width: auto;
+  margin-top: 0 !important;
+}
+
+#search #ss-main a {
+  color: #222222;
+}
+
+#search #ss-main a:hover {
+  color: #b7193f;
+  text-decoration: underline;
+}
+
+#search #ss-main .p-search_box-date a {
+  color: #222222;
+}
+
+#search #ss-main .p-search_box-date a:hover {
+  color: #222222;
+  text-decoration: none;
+  cursor: default;
+}
+
+#search #ss-form {
+  margin-bottom: 0;
+}
+
+#search #ss-result {
+  padding-left: 0;
+  border-top: 1px solid #b7193f;
+  background: #ffffff;
+}
+
+@media (min-width: 992px) {
+  #search #ss-result {
+    border-top: 2px solid #b7193f;
+  }
+}
+
+.p-search {
+  /* pc */
+}
+
+.p-search_input {
+  /* sp */
+  /* pc */
+}
+
+@media (max-width: 991px) {
+  .p-search_input {
+    position: relative;
+    margin: 20px 6.25% 0;
+    z-index: 10;
+  }
+  .p-search_input > form {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #aeaeae;
+    border-radius: 4px;
+    background: #ffffff;
+  }
+  .p-search_input > form > input[type="text"] {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 40px;
+    min-width: 235px;
+    height: 40px;
+    padding: 6px 5px 4px;
+    border: none;
+    background: #ffffff;
+  }
+  .p-search_input > form > input[type="text"]::-webkit-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]::-moz-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]:-ms-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]::placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]:-ms-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]::-ms-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #444444;
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  .p-search_input {
+    position: relative;
+    width: 770px;
+    margin: 30px auto 0;
+    padding: 9px;
+    border: 1px solid #aeaeae;
+    border-radius: 8px;
+    background: #ffffff;
+    z-index: 10;
+  }
+  .p-search_input > form > input[type="text"] {
+    width: 695px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background: #ffffff;
+    font-size: 1.8rem;
+  }
+  .p-search_input > form > input[type="text"]::-webkit-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]::-moz-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]:-ms-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]::placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]:-ms-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > input[type="text"]::-ms-input-placeholder {
+    color: #c5c4c4;
+  }
+  .p-search_input > form > button {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    background: #444444;
+    color: #ffffff;
+    font-size: 2.8rem;
+    line-height: 45px;
+  }
+}
+
+.p-search_navi {
+  padding: 0 15px 10px 8px;
+}
+
+.p-search_navi:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.p-search_navi h2 {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.p-search_navi p {
+  float: left;
+  margin-bottom: 0 !important;
+  margin-left: 7px;
+  line-height: 1;
+  font-size: 1.2rem;
+}
+
+.p-search_navi p span {
+  color: #b7193f;
+  font-size: 1.5rem;
+}
+
+.p-search_navi ul {
+  float: right;
+  font-size: 1.2rem;
+  letter-spacing: -0.4em;
+}
+
+.p-search_navi ul li {
+  line-height: 1;
+  display: inline-block;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.p-search_navi ul li:first-child {
+  border-right: 1px solid #cfcfcf;
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+.p-search_navi ul li.selected span {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #b7193f;
+  color: #b7193f;
+}
+
+.p-search_wrap {
+  padding: 25px 0 0;
+}
+
+.p-search_wrap .l-contents {
+  padding: 0;
+  margin-top: 0 !important;
+}
+
+.p-search_box-inner {
+  padding: 15px 15px 12px 15px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.p-search_box-inner:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.p-search_box-imgtext {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.p-search_box-img {
+  display: table-cell;
+  width: 70px;
+  vertical-align: top;
+}
+
+.p-search_box-img img {
+  width: 70px;
+  height: auto;
+}
+
+.p-search_box-content {
+  display: table-cell;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.p-search_box-date {
+  margin-bottom: 3px !important;
+  line-height: 1 !important;
+  font-size: 1rem;
+}
+
+div#ss-main .p-search_box-date a {
+  color: #222222;
+}
+
+.p-search_box-title {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.p-search_box-title a {
+  display: inline-block;
+  position: relative;
+  padding: 6px 0 6px 1em;
+}
+
+.p-search_box-title a:before {
+  content: "";
+  font-family: 'meijo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  color: #b7193f;
+  margin-top: .15em;
+}
+
+.p-search_box-text {
+  margin-bottom: 0 !important;
+  font-size: 1.2rem;
+}
+
+.p-search_box-url {
+  margin: 5px 0 0 !important;
+  color: #cccccc;
+  word-break: break-all;
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  .p-search_navi {
+    margin: 0;
+    padding: 0 0 65px;
+  }
+  .p-search_navi:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .p-search_navi h2 {
+    margin-bottom: 29px;
+    font-size: 2rem;
+  }
+  .p-search_navi p {
+    position: relative;
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+  .p-search_navi p span {
+    font-size: 2rem;
+  }
+  .p-search_navi ul {
+    font-size: 1.5rem;
+  }
+  .p-search_navi ul li:first-child {
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .p-search_navi ul li.selected span {
+    padding-bottom: 9px;
+    border-bottom: 2px solid #b7193f;
+  }
+  .p-search_wrap {
+    padding: 57px 0 0;
+  }
+  .p-search_wrap .l-contents {
+    padding: 0 20px;
+  }
+  .p-search_box-inner {
+    padding: 30px 0 30px;
+  }
+  .p-search_box-img {
+    width: 140px;
+  }
+  .p-search_box-img img {
+    width: 140px;
+  }
+  .p-search_box-content {
+    padding-left: 30px;
+  }
+  .p-search_box-date {
+    margin-bottom: 12px !important;
+    font-size: 1.4rem;
+  }
+  .p-search_box-title {
+    margin-bottom: 14px !important;
+    font-size: 2rem;
+  }
+  .p-search_box-text {
+    margin-bottom: 0 !important;
+    font-size: 1.6rem;
+  }
+  .p-search_box-url {
+    margin: 30px 0 0 !important;
+    font-size: 1.4rem;
+  }
+}
+
+.ss-pagination {
+  display: block;
+  top: 0 !important;
+  margin: 0 auto 0 !important;
+  background: #f6f5f2;
+  letter-spacing: -0.4em;
+  padding: 25px 0;
+  /* pc */
+}
+
+.ss-pagination > div {
+  display: inline-block;
+  letter-spacing: normal;
+  font-family: YakuHanJP, "Oswald", sans-serif;
+  font-size: 1.4rem;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+.ss-pagination > div > div {
+  display: block;
+  padding: 0 4px;
+  font-weight: bold;
+  position: relative;
+}
+
+.ss-pagination > div.p-search_page-ss-select-page > div:before {
+  content: '';
+  position: absolute;
+  left: 30%;
+  bottom: -3px;
+  width: 40%;
+  height: 1px;
+  background: #b7193f;
+}
+
+.ss-pagination > div.p-search_page-btn > div {
+  display: block;
+  padding: 5px 12px;
+  border-radius: 13px;
+  background: #ffffff;
+  font-family: YakuHanJP, "Noto Sans Japanese", "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.ss-pagination > div.p-search_page-btn > div:hover {
+  background: #b7193f;
+  color: #ffffff;
+}
+
+.ss-pagination > div.p-search_page-btn > div:hover > i {
+  color: #ffffff !important;
+}
+
+.ss-pagination > div.p-search_page-btn.p-search_page-prev > div {
+  margin-left: -3px;
+  margin-right: .5em;
+}
+
+.ss-pagination > div.p-search_page-btn.p-search_page-prev > div i {
+  color: #b7193f;
+  transition: all 0.3s;
+  margin-right: .3em;
+}
+
+.ss-pagination > div.p-search_page-btn.p-search_page-next > div {
+  margin-right: -3px;
+  margin-left: .5em;
+}
+
+.ss-pagination > div.p-search_page-btn.p-search_page-next > div i {
+  color: #b7193f;
+  transition: all 0.3s;
+  margin-left: .3em;
+}
+
+@media (min-width: 992px) {
+  .ss-pagination {
+    margin: 0 auto 0;
+    padding: 30px 0;
+  }
+  .ss-pagination > div {
+    cursor: pointer;
+    font-size: 1.6rem;
+  }
+  .ss-pagination > div > div {
+    padding: 0 8px;
+  }
+  .ss-pagination > div.p-search_page > div:hover {
+    color: #b7193f;
+    text-decoration: underline;
+  }
+  .ss-pagination > div.p-search_page-ss-select-page {
+    cursor: default;
+  }
+  .ss-pagination > div.p-search_page-ss-select-page > div:hover {
+    color: #222222;
+    text-decoration: none;
+  }
+  .ss-pagination > div.p-search_page-ss-select-page > div:before {
+    bottom: -5px;
+    height: 2px;
+  }
+  .ss-pagination > div.p-search_page-btn > div {
+    padding: 6px 15px;
+    border-radius: 16px;
+    font-size: 1.4rem;
+  }
+}

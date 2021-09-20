@@ -1,0 +1,400 @@
+@charset "UTF-8";
+.p-mresearch_nav {
+  padding: 0 6.25%;
+  background: #f6f5f2;
+}
+
+.p-mresearch_nav > ul {
+  padding: 0 25px;
+  text-align: left;
+}
+
+.p-mresearch_nav > ul > li {
+  border-bottom: 1px solid #ddd;
+}
+
+.p-mresearch_nav > ul > li > a {
+  display: block;
+}
+
+.p-mresearch_nav > ul > li > a > span {
+  display: inline-block;
+  padding: 18px 0;
+  font-size: 14px;
+  position: relative;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+}
+
+.p-mresearch_nav > ul > li > a > span i {
+  color: #b7193f;
+}
+
+.p-mresearch_nav > ul > li > a > span:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #b7193f;
+  transform: scaleX(0);
+  transition: all 0.3s;
+}
+
+.p-mresearch_nav > ul > li.js-status-active > a > span:before {
+  transform: none;
+}
+
+.p-mresearch_nav > ul > li:last-child {
+  border-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .p-mresearch_nav {
+    margin-top: -19px;
+    padding: 0;
+  }
+  .p-mresearch_nav > ul {
+    padding: 0;
+    text-align: center;
+  }
+  .p-mresearch_nav > ul > li {
+    display: inline-block;
+    border-bottom: none;
+    padding: 0 27px;
+    position: relative;
+  }
+  .p-mresearch_nav > ul > li > a > span {
+    padding: 30px 0 35px;
+    font-size: 18px;
+  }
+  .p-mresearch_nav > ul > li > a > span:before {
+    height: 4px;
+  }
+  .p-mresearch_nav > ul > li > a > span:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  .p-mresearch_nav > ul > li > a > span:hover:before {
+    transform: none;
+  }
+  .p-mresearch_nav > ul > li:after {
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: 0;
+    display: block;
+    width: 1px;
+    height: 37px;
+    background: #ddd;
+  }
+  .p-mresearch_nav > ul > li:last-child:after {
+    content: none;
+  }
+}
+
+.p-mresearch_bnr{
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1173px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.p-mresearch_bnr_inner{
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-top: 60%;
+}
+.p-mresearch_bnr_img{
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/images/research/index/bnr-mresearch_researcher-sp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  transition: .3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_txt{
+  position: absolute;
+  width: auto;
+  text-align: left;
+  top: 46%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_txt small{
+  color: #fff;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_txt small i{
+  font-size: 1.5rem;
+  padding-left: 5px;
+}
+.p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_txt p{
+  color: #fff;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+  font-size: 2.8rem;
+  margin-bottom: 0;
+  line-height: 1;
+}
+@media (min-width: 992px) {
+  .p-mresearch_bnr{
+    padding: 0;
+  }
+  .p-mresearch_bnr_inner{
+    padding-top: 31%;
+  }
+  .p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_img{
+    background-image: url(/assets/images/research/index/bnr-mresearch_researcher.jpg);
+    background-position: right center;
+  }
+  .p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_txt{
+    left: 140px;
+    top: 48%;
+  }
+  .p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_txt small{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .p-mresearch_bnr > .p-mresearch_bnr_inner .p-mresearch_bnr_txt p{
+    font-size: 5.5rem;
+  }
+}
+.p-mresearch_bnr + .p-mresearch_brand{
+  max-width: 1213px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 20px auto 60px;
+}
+.p-mresearch_bnr + .p-mresearch_brand > .m-box_table{
+  margin: 0 -25px;
+}
+@media (min-width: 992px) {
+  .p-mresearch_bnr + .p-mresearch_brand{
+    margin-top: 60px;
+  }
+}
+
+.p-mresearch_column .p-top_mresearch{
+  margin-top: 30px;
+}
+.p-mresearch_column .m-hdg_lv2-headline{
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .p-mresearch_column .p-top_mresearch{
+    margin-top: 60px;
+  }
+}
+
+.p-mresearch_pickup {
+  padding: 20px 0;
+}
+
+.p-mresearch_pickup p {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.p-mresearch_pickup p.p-mresearch_pickup_head {
+  line-height: 1.4;
+}
+
+.p-mresearch_pickup_head {
+  position: relative;
+  padding-left: 9px;
+  color: #b7193f;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.p-mresearch_pickup_head:before {
+  content: '';
+  position: absolute;
+  top: .2em;
+  left: 0;
+  width: 2px;
+  height: .95em;
+  background: #b7193f;
+}
+
+.p-mresearch_pickup_content {
+  padding-top: 8px;
+}
+
+.p-mresearch_pickup_content_cat {
+  margin-bottom: 1em;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.p-mresearch_pickup_content_text {
+  display: table;
+  width: 100%;
+}
+
+.p-mresearch_pickup_content_vol {
+  display: table-cell;
+  padding-right: 10px;
+  font-size: 1.2rem;
+  font-family: YakuHanJP, "Oswald", sans-serif;
+}
+
+.p-mresearch_pickup_content_vol span {
+  font-size: 1.8rem;
+}
+
+.p-mresearch_pickup_content_title {
+  display: table-cell;
+  width: 100%;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  .p-mresearch_pickup {
+    display: table;
+    padding: 30px 0;
+    width: 100%;
+  }
+  .p-mresearch_pickup_head {
+    display: table-cell;
+    padding-left: 0;
+    padding-right: 60px;
+    width: 140px;
+    color: #000000;
+    font-size: 2.6rem;
+    font-weight: normal;
+    font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+    vertical-align: top;
+  }
+  .p-mresearch_pickup_head:before {
+    display: none;
+  }
+  .p-mresearch_pickup_content {
+    display: table-cell;
+    padding-top: 0;
+    padding-left: 60px;
+    border-left: 1px solid #000000;
+    vertical-align: top;
+  }
+  .p-mresearch_pickup_content_cat {
+    font-size: 1.4rem;
+  }
+  .p-mresearch_pickup_content_vol {
+    padding-right: 30px;
+    font-size: 1.4rem;
+  }
+  .p-mresearch_pickup_content_vol span {
+    font-size: 2.6rem;
+  }
+  .p-mresearch_pickup_content_title {
+    font-size: 3rem;
+  }
+}
+
+.p-mresearch_category_item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.p-mresearch_category_item a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.p-mresearch_category_item a:hover figure img {
+  transform: scale(1.1);
+}
+
+.p-mresearch_category_item figure {
+  overflow: hidden;
+}
+
+.p-mresearch_category_item figure img {
+  width: 100%;
+  transition: all 0.3s;
+  vertical-align: middle;
+}
+
+.p-mresearch_category_item span {
+  position: absolute;
+  padding: 20px 10px;
+  width: 235px;
+  border: 1px solid #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.9rem;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+}
+
+@media (min-width: 992px) {
+  .p-mresearch_category_list {
+    margin: 0 -15px;
+  }
+  .p-mresearch_category_list:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .p-mresearch_category_item {
+    display: block;
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+  }
+}
+
+.p-mresearch_first_img img {
+  width: 100%;
+}
+
+.p-mresearch_first > .l-contents {
+  margin: 0;
+}
+
+.p-mresearch_first .m-btn {
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .p-mresearch_first {
+    max-width: 1213px;
+    margin: 90px auto 0;
+    padding: 0 20px;
+  }
+  .p-mresearch_first_img {
+    max-width: 1213px;
+    padding: 0 20px;
+  }
+  .p-mresearch_first .p-top_mresearch_item_box {
+    text-align: center;
+  }
+  .p-mresearch_first .p-top_mresearch_item_box .p-top_mresearch_item_box_content {
+    width: auto;
+    margin: 0 auto;
+  }
+  .p-mresearch_first .p-top_mresearch_item_box .p-top_mresearch_item_box_content .p-top_mresearch_item_box_vol {
+    font-size: 1.5rem;
+  }
+  .p-mresearch_first .p-top_mresearch_item_box .p-top_mresearch_item_box_content .p-top_mresearch_item_box_vol span {
+    font-size: 3rem;
+  }
+  .p-mresearch_first .p-top_mresearch_item_box .p-top_mresearch_item_box_content .p-top_mresearch_item_box_title {
+    width: auto;
+    font-size: 3rem;
+  }
+}

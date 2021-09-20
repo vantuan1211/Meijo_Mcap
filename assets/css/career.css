@@ -1,0 +1,950 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* /career/index.html page Module
+* /career/index.html 学科トップページ用
+-------------------------------------------------- */
+.p-career_support {
+  position: relative;
+  /* pc */
+}
+
+.p-career_support_content_wrap {
+  padding: 40px 6.25%;
+  background: #b7193f;
+  color: #ffffff;
+}
+
+.p-career_support_content_title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.p-career_support_img {
+  padding: 0 6.25% 40px;
+  background: #b7193f;
+}
+
+.p-career_support_img img {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .p-career_support {
+    padding-bottom: 70px;
+    overflow: hidden;
+  }
+  .p-career_support_content {
+    position: relative;
+    z-index: 0;
+  }
+  .p-career_support_content:after {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    content: '';
+    background: #b7193f;
+    z-index: -1;
+  }
+  .p-career_support_content_wrap {
+    max-width: 1173px;
+    margin: 0 auto;
+    padding: 70px 100px;
+  }
+  .p-career_support_content_wrap > * {
+    width: 50%;
+    margin-left: 50%;
+    padding-left: 70px;
+  }
+  .p-career_support_content_title {
+    text-align: left;
+  }
+  .p-career_support_content p.p-career_support_content_title {
+    margin-bottom: 1em;
+  }
+  .p-career_support_img {
+    position: absolute;
+    width: 50%;
+    top: 70px;
+    left: 0;
+    padding: 0;
+    background: none;
+  }
+}
+
+.p-career_employment > .l-contents {
+  margin-top: -40px;
+}
+
+.p-career_employment_content {
+  position: relative;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-top: 1px solid #b7193f;
+  z-index: 1;
+}
+
+.p-career_employment_content_title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .p-career_employment > .l-contents {
+    margin-top: 120px;
+  }
+  .p-career_employment > img {
+    float: right;
+    width: 70%;
+    margin-top: -60px;
+    margin-left: -20%;
+  }
+  .p-career_employment_content {
+    max-width: 520px;
+    padding: 70px;
+  }
+  .p-career_employment_content_title {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+.p-career_employment:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* -----------------------------------------------
+* /career/results/index.html page Module
+* /career/results/index.html 就職・進路実績ページ用
+-------------------------------------------------- */
+.b-c-pink {
+  color: #ed1e79 !important;
+}
+
+.b-c-pink_bg {
+  background: #ed1e79 !important;
+}
+
+.b-c-pink_bg:after {
+  border-color: transparent transparent #ed1e79 transparent !important;
+}
+
+.p-career_results_bg {
+  background: url(/assets/images/career/results/index/bg-line.gif) top left repeat;
+}
+
+.p-career_results_intro {
+  /* pc */
+}
+
+.p-career_results_intro p {
+  margin-bottom: 0 !important;
+}
+
+.p-career_results_intro .m-box_lead {
+  margin: 10px 0 !important;
+}
+
+@media (min-width: 992px) {
+  .p-career_results_intro {
+    text-align: center;
+  }
+}
+
+.p-career_results_find {
+  margin-bottom: 50px;
+  padding: 30px 6.25%;
+  /* pc */
+}
+
+.p-career_results_find_rate-01 {
+  text-align: center;
+}
+
+.p-career_results_find_rate-01_title {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.p-career_results_find_rate-01_num-01 {
+  margin: -10px auto 5px !important;
+  line-height: 1 !important;
+  font-size: 3.4rem;
+}
+
+.p-career_results_find_rate-01_num-01 span {
+  color: #b7193f;
+  font-size: 10rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-career_results_find_rate-01_num-02 {
+  margin-bottom: 10px !important;
+  line-height: 1 !important;
+  font-size: 1.5rem;
+}
+
+.p-career_results_find_rate-01_num-02 span {
+  color: #b7193f;
+  font-size: 3rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-career_results_find_rate-01_txt {
+  line-height: 1.8 !important;
+  font-size: 1.2rem;
+}
+
+.p-career_results_find_rate-01_point {
+  margin-bottom: 5px !important;
+}
+
+.p-career_results_find_rate-01_point span {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  line-height: 1 !important;
+  background: #b7193f;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.p-career_results_find_rate-01_point span:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 3px 0 3px;
+  border-color: #b7193f transparent transparent transparent;
+  transform: translateX(-50%);
+}
+
+.p-career_results_find_rate-02 {
+  padding: 15px 25px;
+  border-top: 1px solid #b7193f;
+  background: #ffffff;
+  text-align: center;
+}
+
+.p-career_results_find_rate-02_present {
+  margin-bottom: 15px;
+}
+
+.p-career_results_find_rate-02_present_title {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.p-career_results_find_rate-02_present_num {
+  margin-bottom: 5px !important;
+  line-height: 1 !important;
+  font-size: 1rem;
+}
+
+.p-career_results_find_rate-02_present_num span {
+  color: #b7193f;
+  font-size: 4.6rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-career_results_find_rate-02_present_txt {
+  margin-bottom: 0 !important;
+  line-height: 1.8 !important;
+  font-size: 1.2rem;
+}
+
+.p-career_results_find_rate-02_present_point {
+  margin: 15px auto 0 !important;
+}
+
+.p-career_results_find_rate-02_present_point span {
+  position: relative;
+  display: inline-block;
+  padding: 6px 17px;
+  border-radius: 5px;
+  line-height: 1 !important;
+  background: #b7193f;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.p-career_results_find_rate-02_present_point span:after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 3px 5px 3px;
+  border-color: transparent transparent #b7193f transparent;
+  transform: translateX(-50%);
+}
+
+.p-career_results_find_rate-02_past li {
+  margin-bottom: 10px;
+}
+
+.p-career_results_find_rate-02_past_title, .p-career_results_find_rate-02_past_num, .p-career_results_find_rate-02_past_point {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0 !important;
+}
+
+.p-career_results_find_rate-02_past_title {
+  padding: 0.5em 5px 0 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.p-career_results_find_rate-02_past_num {
+  line-height: 1 !important;
+  padding-right: 10px;
+  font-size: 1rem;
+}
+
+.p-career_results_find_rate-02_past_num span {
+  color: #b7193f;
+  font-size: 3rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-career_results_find_rate-02_past_point span {
+  position: relative;
+  display: inline-block;
+  padding: 7px;
+  border-radius: 5px;
+  line-height: 1 !important;
+  background: #b7193f;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.p-career_results_find_rate-02_past_point span:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 5px 3px 0;
+  border-color: transparent #b7193f transparent transparent;
+  transform: translateY(-50%);
+}
+
+.p-career_results_find_rate-03 {
+  margin-bottom: 45px;
+}
+
+.p-career_results_find_rate-03 ul:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.p-career_results_find_rate-03 ul li {
+  float: left;
+  width: 48%;
+  margin: 0 4% 25px 0;
+  text-align: center;
+}
+
+.p-career_results_find_rate-03 ul li:nth-child(even) {
+  margin-right: 0;
+}
+
+.p-career_results_find_rate-03_title {
+  margin-bottom: 5px;
+  padding: 5px;
+  background: #ffffff;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.p-career_results_find_rate-03_num {
+  margin-bottom: 0 !important;
+  line-height: 1 !important;
+  font-size: 1.2rem;
+}
+
+.p-career_results_find_rate-03_num span {
+  color: #b7193f;
+  font-size: 3rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-career_results_find_rate-03_txt {
+  line-height: 1.8 !important;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .p-career_results_find {
+    max-width: 973px;
+    margin: 0 auto 90px;
+    padding: 20px 0 70px;
+  }
+  .p-career_results_find_rate-01_title, .p-career_results_find_rate-01_num-01 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .p-career_results_find_rate-01_title {
+    margin-right: 30px;
+    padding-top: 1em;
+    font-size: 3.4rem;
+  }
+  .p-career_results_find_rate-01_num-01 {
+    margin: 0 auto 25px !important;
+    font-size: 6rem;
+  }
+  .p-career_results_find_rate-01_num-01 span {
+    font-size: 21rem;
+    letter-spacing: -0.03em;
+  }
+  .p-career_results_find_rate-01_num-02 {
+    margin-bottom: 15px !important;
+    font-size: 1.6rem;
+  }
+  .p-career_results_find_rate-01_num-02 span {
+    margin-left: 10px;
+    font-size: 5.6rem;
+  }
+  .p-career_results_find_rate-01_txt {
+    font-size: 1.4rem;
+  }
+  .p-career_results_find_rate-01_point {
+    margin-bottom: 5px !important;
+  }
+  .p-career_results_find_rate-01_point span {
+    padding: 15px 35px;
+    font-size: 2.4rem;
+  }
+  .p-career_results_find_rate-01_point span:after {
+    bottom: -7px;
+    border-width: 7px 4px 0 4px;
+  }
+  .p-career_results_find_rate-02 {
+    padding: 20px 100px 30px;
+  }
+  .p-career_results_find_rate-02:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .p-career_results_find_rate-02_present, .p-career_results_find_rate-02_past {
+    float: left;
+    width: 50%;
+  }
+  .p-career_results_find_rate-02_present {
+    text-align: left;
+  }
+  .p-career_results_find_rate-02_present_title, .p-career_results_find_rate-02_present_num, .p-career_results_find_rate-02_present_point {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .p-career_results_find_rate-02_present_title {
+    margin-right: 15px;
+    padding-top: 0.5em;
+    font-size: 2.6rem;
+  }
+  .p-career_results_find_rate-02_present_num {
+    margin-bottom: 10px !important;
+    font-size: 2.4rem;
+  }
+  .p-career_results_find_rate-02_present_num span {
+    font-size: 10rem;
+  }
+  .p-career_results_find_rate-02_present_txt {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+  .p-career_results_find_rate-02_present-woman {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .p-career_results_find_rate-02_present_box, .p-career_results_find_rate-02_present_point {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .p-career_results_find_rate-02_present_box {
+    padding-right: 40px;
+  }
+  .p-career_results_find_rate-02_present_point {
+    margin-top: 0;
+  }
+  .p-career_results_find_rate-02_present_point span {
+    padding: 15px 30px;
+    font-size: 2.2rem;
+  }
+  .p-career_results_find_rate-02_present_point span:after {
+    top: 50%;
+    left: -10px;
+    border-width: 5px 10px 5px 0 !important;
+    border-color: transparent #ed1e79 transparent transparent !important;
+    transform: translate(0, -50%);
+  }
+  .p-career_results_find_rate-02_past {
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .p-career_results_find_rate-02_past li {
+    margin-bottom: 5px !important;
+  }
+  .p-career_results_find_rate-02_past_title {
+    font-size: 2rem;
+  }
+  .p-career_results_find_rate-02_past_num {
+    font-size: 1.6rem;
+  }
+  .p-career_results_find_rate-02_past_num span {
+    font-size: 5.6rem;
+  }
+  .p-career_results_find_rate-02_past_point span {
+    padding: 7px 15px;
+    font-size: 1.4rem;
+  }
+  .p-career_results_find_rate-03 ul li {
+    width: 11%;
+    margin: 0 1.7% 0 0;
+  }
+  .p-career_results_find_rate-03 ul li:nth-child(even) {
+    margin-right: 1.7%;
+  }
+  .p-career_results_find_rate-03 ul li:last-child {
+    margin-right: 0;
+  }
+  .p-career_results_find_rate-03_title {
+    font-size: 1.6rem;
+  }
+  .p-career_results_find_rate-03_num span {
+    font-size: 4.6rem;
+  }
+  .p-career_results_find_rate-03_txt {
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+}
+
+.p-career_results_pickup {
+  padding: 0 6.25%;
+  margin-bottom: 20px;
+  /* pc */
+}
+
+.p-career_results_pickup ul {
+  text-align: center;
+}
+
+.p-career_results_pickup ul:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.p-career_results_pickup ul li {
+  float: left;
+  width: 48%;
+  margin: 0 4% 30px 0;
+  text-align: center;
+}
+
+.p-career_results_pickup ul li:nth-child(even) {
+  margin-right: 0;
+}
+
+.p-career_results_pickup_bg {
+  padding: 15px;
+  background: #f6f5f2;
+  border-top: 1px solid #b7193f;
+}
+
+.p-career_results_pickup_point {
+  margin-bottom: 10px !important;
+}
+
+.p-career_results_pickup_point > span {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 8px 5px;
+  border-radius: 5px;
+  line-height: 1 !important;
+  background: #b7193f;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.p-career_results_pickup_point > span:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 3px 0 3px;
+  border-color: #b7193f transparent transparent transparent;
+  transform: translateX(-50%);
+}
+
+.p-career_results_pickup_title {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.p-career_results_pickup_num {
+  margin-bottom: 8px !important;
+  line-height: 1 !important;
+  font-size: 1.5rem;
+}
+
+.p-career_results_pickup_num span {
+  color: #b7193f;
+  font-size: 3rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-career_results_pickup_txt {
+  margin-bottom: 0 !important;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+  .p-career_results_pickup {
+    max-width: 973px;
+    margin: 0 auto 60px;
+    padding: 0;
+  }
+  .p-career_results_pickup li {
+    margin-bottom: 0;
+    padding-top: 70px;
+  }
+  .p-career_results_pickup li:nth-child(1),
+  .p-career_results_pickup li:nth-child(2) {
+    padding-top: 0;
+  }
+  .p-career_results_pickup_bg {
+    padding: 50px;
+  }
+  .p-career_results_pickup_point {
+    margin-bottom: 20px !important;
+    margin-top: -58px;
+  }
+  .p-career_results_pickup_point > span {
+    width: auto;
+    padding: 8px 20px;
+    font-size: 1.4rem;
+  }
+  .p-career_results_pickup_point > span span {
+    font-size: 2.2rem;
+  }
+  .p-career_results_pickup_title {
+    margin-bottom: 10px !important;
+    font-size: 2.6rem;
+  }
+  .p-career_results_pickup_num {
+    margin-bottom: 15px !important;
+    font-size: 2.8rem;
+  }
+  .p-career_results_pickup_num span {
+    font-size: 10rem;
+  }
+  .p-career_results_pickup_txt {
+    font-size: 1.4rem;
+  }
+}
+
+.p-career_results_other {
+  background: #f6f5f2;
+  padding: 45px 6.25%;
+  /* pc */
+}
+
+.p-career_results_other ul {
+  border-top: 1px solid rgba(183, 25, 63, 0.5);
+}
+
+.p-career_results_other ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(222, 222, 222, 0.5);
+}
+
+.p-career_results_other_title {
+  margin-bottom: 7px;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.p-career_results_other_num, .p-career_results_other_point {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.p-career_results_other_num {
+  margin: 0 10px 0 0 !important;
+  line-height: 1 !important;
+  font-size: 1.2rem;
+}
+
+.p-career_results_other_num span {
+  line-height: 1 !important;
+  color: #b7193f;
+  font-size: 3rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-career_results_other_point {
+  margin-bottom: 0 !important;
+}
+
+.p-career_results_other_point span {
+  position: relative;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 5px;
+  line-height: 1 !important;
+  background: #b7193f;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.p-career_results_other_point span:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 5px 3px 0;
+  border-color: transparent #b7193f transparent transparent;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 992px) {
+  .p-career_results_other {
+    margin-bottom: 90px;
+    padding: 80px 0;
+  }
+  .p-career_results_other ul {
+    max-width: 973px;
+    margin: 0 auto;
+  }
+  .p-career_results_other ul:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .p-career_results_other ul li {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+  .p-career_results_other ul li:nth-child(even) {
+    margin-right: 0;
+  }
+  .p-career_results_other_title {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+  }
+  .p-career_results_other_num {
+    font-size: 1.6rem;
+  }
+  .p-career_results_other_num span {
+    font-size: 5rem;
+  }
+  .p-career_results_other_point span {
+    padding: 6px 13px;
+    font-size: 1.4rem;
+  }
+}
+
+.p-career_results_link {
+  /* pc */
+}
+
+.p-career_results_link .m-hdg_lv3 + .m-list_common-link {
+  margin-top: -15px;
+}
+
+@media (min-width: 992px) {
+  .p-career_results_link .m-list_common-link > ul > li {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+.p-mcap_results_pickup {
+  padding: 0;
+  margin-bottom: 20px;
+  /* pc */
+}
+
+.p-mcap_results_pickup ul {
+  text-align: center;
+}
+
+.p-mcap_results_pickup ul:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.p-mcap_results_pickup ul li {
+  float: left;
+  width: 48%;
+  margin: 0 4% 30px 0;
+  text-align: center;
+}
+
+.p-mcap_results_pickup ul li:nth-child(even) {
+  margin-right: 0;
+}
+
+.p-mcap_results_pickup_bg {
+  padding: 15px;
+  background: #f6f5f2;
+  border-top: 1px solid #b7193f;
+}
+
+.p-mcap_results_pickup_point {
+  margin-bottom: 10px !important;
+}
+
+.p-mcap_results_pickup_point > span {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 8px 5px;
+  border-radius: 5px;
+  line-height: 1 !important;
+  background: #b7193f;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.p-mcap_results_pickup_point > span:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 3px 0 3px;
+  border-color: #b7193f transparent transparent transparent;
+  transform: translateX(-50%);
+}
+
+.p-mcap_results_pickup_title {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: normal;
+  color: #b7193f;
+}
+
+.p-mcap_results_pickup_title span {
+  font-size: 1.1rem;
+  display: inline-block;
+  line-height: 1.1;
+  color: #222;
+}
+
+.p-mcap_results_pickup_num {
+  margin-bottom: 8px !important;
+  line-height: 1 !important;
+  font-size: 1.5rem;
+}
+
+.p-mcap_results_pickup_num span {
+  font-size: 1.5rem;
+  font-family: YakuHanJP, "Fira Sans", sans-serif;
+}
+
+.p-mcap_results_pickup_txt {
+  margin-bottom: 0 !important;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+  .p-mcap_results_pickup {
+    max-width: 973px;
+    margin: 0 auto 60px;
+    padding: 0;
+  }
+  .p-mcap_results_pickup ul li {
+    width: 32%;
+    margin: 0 2% 30px 0;
+    margin-bottom: 0;
+    padding-top: 70px;
+  }
+  .p-mcap_results_pickup ul li:nth-child(even) {
+    margin-right: 2%;
+  }
+  .p-mcap_results_pickup ul li:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .p-mcap_results_pickup li:nth-child(1),
+  .p-mcap_results_pickup li:nth-child(2),
+  .p-mcap_results_pickup li:nth-child(3) {
+    padding-top: 0;
+  }
+  .p-mcap_results_pickup_bg {
+    padding: 15px;
+  }
+  .p-mcap_results_pickup_point {
+    margin-bottom: 20px !important;
+    margin-top: -58px;
+  }
+  .p-mcap_results_pickup_point > span {
+    width: auto;
+    padding: 8px 20px;
+    font-size: 1.4rem;
+  }
+  .p-mcap_results_pickup_point > span span {
+    font-size: 2.2rem;
+  }
+  .p-mcap_results_pickup_title {
+    font-size: 4rem;
+    line-height: 1;
+    color: #b7193f;
+    margin-bottom: 10px!important;
+  }
+  .p-mcap_results_pickup_title span {
+    font-size: 1.6rem;
+    color: #222;
+    display: block;
+    margin-top: 10px;
+  }
+  .p-mcap_results_pickup_num {
+    margin-bottom: 15px !important;
+    font-size: 2.8rem;
+  }
+  .p-mcap_results_pickup_num span {
+    font-size: 2.8rem;
+    color: #222;
+  }
+  .p-mcap_results_pickup_txt {
+    font-size: 1.4rem;
+  }
+  .p-mcap_results_pickup + .m-hdg_lv3 + .m-box_table .m-box_table_item ul li.b-is-hidden-sp:before{
+    display: none;
+  }
+}

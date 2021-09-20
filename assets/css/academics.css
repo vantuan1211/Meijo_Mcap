@@ -1,0 +1,655 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* /academics/xxx/ page Module
+* /academics/xxx/ が学科トップページ用
+-------------------------------------------------- */
+.p-academics_feature {
+  position: relative;
+  padding-top: 200px;
+  /* pc */
+}
+
+.p-academics_feature-wide_wrap .p-academics_feature_item {
+  padding-top: 40px;
+}
+
+.p-academics_feature-wide_wrap .p-academics_feature_num {
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  padding-top: 14px;
+  top: -25px;
+}
+
+.p-academics_feature .m-box_table {
+  margin: 0;
+}
+
+.p-academics_feature_item {
+  position: relative;
+  margin: 0 20px 70px;
+  padding-top: 50px;
+  border-bottom: 1px solid #efefef;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 10;
+}
+
+.p-academics_feature_head p {
+  line-height: 1em;
+}
+
+.p-academics_feature_head p.p-academics_feature_title {
+  margin-bottom: 20px;
+  line-height: 1.25em;
+}
+
+.p-academics_feature_num {
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  margin-left: -35px;
+  padding-top: 16px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  background: #ebebeb;
+  border-radius: 35px;
+  font-family: YakuHanJP, "Oswald", sans-serif;
+  font-size: 7px;
+  color: #a4a4a4;
+}
+
+.p-academics_feature_num span {
+  display: block;
+  padding-bottom: 4px;
+  font-size: 2.3rem;
+  line-height: 1em;
+  color: #b7193f;
+}
+
+.p-academics_feature_title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.p-academics_feature_content {
+  line-height: 1.4;
+}
+
+.p-academics_feature_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+
+.p-academics_feature_bg-legal {
+  background: url(/assets/images/academics/common/feature/bg-legal.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-business {
+  background: url(/assets/images/academics/common/feature/bg-business.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-international_b {
+  background: url(/assets/images/academics/common/feature/bg-international_b.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-economics {
+  background: url(/assets/images/academics/common/feature/bg-economics.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-industrial {
+  background: url(/assets/images/academics/common/feature/bg-industrial.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-international_f {
+  background: url(/assets/images/academics/common/feature/bg-international_f.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-human {
+  background: url(/assets/images/academics/common/feature/bg-human.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-urban {
+  background: url(/assets/images/academics/common/feature/bg-urban.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-mathematics {
+  background: url(/assets/images/academics/common/feature/bg-mathematics.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-information {
+  background: url(/assets/images/academics/common/feature/bg-information.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-electrical {
+  background: url(/assets/images/academics/common/feature/bg-electrical.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-materials {
+  background: url(/assets/images/academics/common/feature/bg-materials.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-chemistry {
+  background: url(/assets/images/academics/common/feature/bg-chemistry.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-mechanical {
+  background: url(/assets/images/academics/common/feature/bg-mechanical.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-vehicle {
+  background: url(/assets/images/academics/common/feature/bg-vehicle.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-mechatronics {
+  background: url(/assets/images/academics/common/feature/bg-mechatronics.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-civil {
+  background: url(/assets/images/academics/common/feature/bg-civil.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-environmental {
+  background: url(/assets/images/academics/common/feature/bg-environmental.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-architecture {
+  background: url(/assets/images/academics/common/feature/bg-architecture.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-agrobiol_res {
+  background: url(/assets/images/academics/common/feature/bg-agrobiol_res.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-appl_biol_chem {
+  background: url(/assets/images/academics/common/feature/bg-appl_biol_chem.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-environ_biosci {
+  background: url(/assets/images/academics/common/feature/bg-environ_biosci.jpg);
+  background-size: cover;
+}
+
+.p-academics_feature_bg-pharmacy {
+  background: url(/assets/images/academics/common/feature/bg-pharmacy.jpg);
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .p-academics_feature {
+    padding: 80px 0 10px;
+  }
+  .p-academics_feature-wide_wrap {
+    position: relative;
+    padding: 0 50px;
+    margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 2;
+  }
+  .p-academics_feature-wide_wrap .m-box_table {
+    margin: 0;
+  }
+  .p-academics_feature-wide_wrap .m-box_table_item {
+    padding: 0;
+  }
+  .p-academics_feature-wide_wrap .p-academics_feature_item {
+    padding: 0;
+    background: none;
+    border: none;
+  }
+  .p-academics_feature-wide_wrap .p-academics_feature_num {
+    width: 60px;
+    height: 60px;
+    padding-top: 16px !important;
+  }
+  .p-academics_feature .m-box_table {
+    margin: 0 -25px;
+  }
+  .p-academics_feature .m-box_table-col1 .m-box_table_inner {
+    margin: 0 auto;
+  }
+  .p-academics_feature_item {
+    margin: 0 0 50px;
+    padding: 30px 30px 60px 40px;
+  }
+  .p-academics_feature_item-stack .p-academics_feature_head {
+    display: block;
+  }
+  .p-academics_feature_item-stack .p-academics_feature_num {
+    display: block;
+    margin: 0 auto;
+    padding-top: 24px;
+  }
+  .p-academics_feature_item-stack .p-academics_feature_title {
+    display: block;
+    max-width: 300px;
+    padding: 30px 20px 0;
+    margin: 0 auto;
+  }
+  .p-academics_feature_item-stack .p-academics_feature_content {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .p-academics_feature_head {
+    display: table;
+    padding-bottom: 10px;
+  }
+  .p-academics_feature_head p.p-academics_feature_title {
+    line-height: 1.5em;
+  }
+  .p-academics_feature_title {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 20px 0 30px;
+    text-align: left;
+    line-height: 1.4;
+  }
+  .p-academics_feature_num {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: inherit;
+    left: inherit;
+    padding-top: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    font-size: 1rem;
+  }
+  .p-academics_feature_num span {
+    padding-bottom: 6px;
+    font-size: 3rem;
+  }
+  .p-academics_feature_content {
+    padding: 0 20px;
+  }
+  .p-academics_feature_content p:last-child {
+    margin-bottom: 0;
+  }
+  .p-academics_feature_bg {
+    height: 100%;
+  }
+}
+
+.p-academics_employment {
+  position: relative;
+  /* pc */
+}
+
+.p-academics_employment_content_wrap {
+  padding: 40px 6.25%;
+  background: #b7193f;
+  color: #ffffff;
+}
+
+.p-academics_employment_content .m-hdg_lv4 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.p-academics_employment_content .m-hdg_lv4:before {
+  background: #ffffff;
+}
+
+.p-academics_employment_rate {
+  background: #f6f5f2;
+  text-align: center;
+}
+
+.p-academics_employment_rate_wrap {
+  padding: 30px 6.25%;
+}
+
+.p-academics_employment_rate_brackets {
+  position: relative;
+}
+
+.p-academics_employment_rate_brackets:before, .p-academics_employment_rate_brackets:after {
+  display: block;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  content: '';
+}
+
+.p-academics_employment_rate_brackets:before {
+  border-top: 1px solid #b7193f;
+  border-left: 1px solid #b7193f;
+  top: 0;
+  left: 0;
+}
+
+.p-academics_employment_rate_brackets:after {
+  border-right: 1px solid #b7193f;
+  border-bottom: 1px solid #b7193f;
+  bottom: 0;
+  right: 0;
+}
+
+.p-academics_employment_rate_brackets p {
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.p-academics_employment_rate_title {
+  padding-top: 15px;
+  font-size: 2rem;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+}
+
+.p-academics_employment_rate_num {
+  font-size: 10rem;
+  font-family: YakuHanMP, 游明朝, "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", メイリオ, Meiryo, serif;
+  color: #b7193f;
+}
+
+.p-academics_employment_rate_num span {
+  font-size: 3.6rem;
+}
+
+.p-academics_employment_rate_text {
+  padding-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+  .p-academics_employment_content {
+    position: relative;
+    z-index: 0;
+    min-height: 430px;
+  }
+  .p-academics_employment_content:before {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    background: #b7193f;
+    z-index: -1;
+  }
+  .p-academics_employment_content_wrap {
+    max-width: 1173px;
+    margin: 0 auto;
+    padding: 70px 100px;
+  }
+  .p-academics_employment_content_wrap > * {
+    width: 50%;
+    padding-right: 50px;
+  }
+  .p-academics_employment_rate {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    width: 50%;
+    padding: 50px 0;
+  }
+  .p-academics_employment_rate_wrap {
+    padding: 0 0 0 50px;
+    max-width: 436.5px;
+  }
+  .p-academics_employment_rate_brackets {
+    height: 330px;
+  }
+  .p-academics_employment_rate_brackets:before, .p-academics_employment_rate_brackets:after {
+    width: 50px;
+    height: 50px;
+  }
+  .p-academics_employment_rate_title {
+    padding-top: 40px;
+    font-size: 3rem;
+    color: #b7193f;
+  }
+  .p-academics_employment_rate_num {
+    padding-top: 20px;
+    font-size: 15rem;
+  }
+  .p-academics_employment_rate_num span {
+    font-size: 7.4rem;
+  }
+  .p-academics_employment_rate_text {
+    padding: 20px 0 0;
+    color: #b7193f;
+  }
+}
+
+/* -----------------------------------------------
+* /academics/sci_tech/mechanical/ page Module
+* /academics/sci_tech/mechanical/ 機械工学科用
+-------------------------------------------------- */
+.p-academics_topics {
+  padding: 40px 6.25% 45px;
+  background: #b7193f;
+  color: #ffffff;
+  /* pc */
+}
+
+.p-academics_topics_txt_title {
+  margin-bottom: 15px;
+  font-size: 2.2rem;
+  font-family: YakuHanJP, "Oswald", sans-serif;
+  text-align: center;
+}
+
+.p-academics_topics_txt_catch {
+  margin-bottom: 20px !important;
+  line-height: 1.2 !important;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.p-academics_topics_txt_sent {
+  font-size: 1.2rem;
+}
+
+.p-academics_topics_img img {
+  width: 100%;
+}
+
+.p-academics_topics_img_btn {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.p-academics_topics_img_btn .m-btn {
+  display: block;
+  max-width: 265px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .p-academics_topics {
+    position: relative;
+    background: transparent;
+    margin: 90px auto 0;
+    padding: 0;
+  }
+  .p-academics_topics_wrap {
+    position: relative;
+    padding-top: 60px;
+  }
+  .p-academics_topics_txt {
+    width: 94%;
+    height: 494px;
+    padding-top: 60px;
+    background: #b7193f;
+  }
+  .p-academics_topics_txt > * {
+    width: 38%;
+    padding: 0 50px;
+  }
+  .p-academics_topics_txt_title {
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
+  .p-academics_topics_txt_catch {
+    margin-bottom: 30px !important;
+    font-size: 2rem;
+  }
+  .p-academics_topics_txt_sent {
+    line-height: 1.7 !important;
+    font-size: 1.6rem;
+  }
+  .p-academics_topics_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64.5%;
+  }
+  .p-academics_topics_img_btn {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .p-academics_topics_img_btn .m-btn {
+    display: inline-block;
+    max-width: none;
+  }
+}
+
+/* -----------------------------------------------
+* academics/sci_tech/materials/research/ page Module
+* academics/sci_tech/materials/research/ページ用
+-------------------------------------------------- */
+.p-reserch {
+  /* -----------------------------------------------
+  * .p-reserch_info
+  * ***
+  -------------------------------------------------- */
+}
+
+.p-reserch_info_table tbody th {
+  width: 30%;
+  font-weight: normal;
+}
+
+.p-reserch_info_table tbody td {
+  width: 35%;
+}
+
+.p-reserch_info_table tbody td li:before {
+  content: '・\02002';
+}
+
+/* -----------------------------------------------
+* academics/agriculture/farm.html page Module
+* academics/agriculture/farm.htmlページ用
+-------------------------------------------------- */
+.p-farm {
+  /* -----------------------------------------------
+  * .p-farm_intro
+  * ***
+  -------------------------------------------------- */
+  /* -----------------------------------------------
+  * .p-farm_student
+  * ***
+  -------------------------------------------------- */
+}
+
+.p-farm_intro {
+  /* pc */
+}
+
+.p-farm_intro .m-box_right .m-box_lead {
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+  .p-farm_intro .m-box_left {
+    max-width: 29.5%;
+  }
+  .p-farm_intro .m-box_right {
+    max-width: 70.5%;
+  }
+  .p-farm_intro .m-box_right .m-box_lead {
+    margin-bottom: 15px;
+    line-height: 1.9;
+  }
+}
+
+.p-farm_student {
+  /* pc */
+}
+
+.p-farm_student .m-box_left .m-box_lead {
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+.p-farm_student_bg {
+  padding: 20px;
+  background: #f6f5f2;
+}
+
+.p-farm_student_img {
+  margin-bottom: 10px;
+}
+
+.p-farm_student p {
+  margin-bottom: 0;
+}
+
+.p-farm_student_txt {
+  display: block;
+  line-height: 1.5;
+}
+
+.p-farm_student_txt-department {
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+}
+
+.p-farm_student_txt-name {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.p-farm_student_txt-info {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 992px) {
+  .p-farm_student .m-box_left .m-box_lead {
+    margin: 0 0 15px;
+    line-height: 1.9;
+  }
+  .p-farm_student_bg {
+    padding: 50px 35px;
+  }
+  .p-farm_student_img {
+    margin-bottom: 25px;
+  }
+  .p-farm_student_txt-department {
+    margin-bottom: 30px;
+  }
+  .p-farm_student_txt-name {
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* social/ page Module
+* social/ ページ用
+-------------------------------------------------- */
+.p-social {
+  /* -----------------------------------------------
+	* .p-social_shake
+	* ***
+	-------------------------------------------------- */
+}
+
+.p-social_shake {
+  margin-top: 25px;
+  /* pc */
+}
+
+.p-social_shake .m-hdg_lv2 {
+  margin: 45px 6.25% 30px;
+}
+
+.p-social_shake_img_bg {
+  height: 35vh;
+  background: url("/assets/images/social/index/img-shake-sp.jpg") top left/cover no-repeat;
+}
+
+.p-social_shake_img_txt {
+  position: relative;
+  margin: -39px 6.25% 0;
+  padding: 25px 20px;
+  background: #ffffff;
+  z-index: 5;
+}
+
+.p-social_shake_img_txt_title {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.p-social_shake_img_txt_sent {
+  font-size: 1.2rem;
+}
+
+.p-social_shake_img_txt_btn .m-btn {
+  display: block;
+  max-width: 228px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .p-social_shake {
+    margin: 30px auto 0;
+  }
+  .p-social_shake .l-contents-thin {
+    overflow: hidden;
+  }
+  .p-social_shake .m-hdg_lv2 {
+    margin: 90px 0 60px;
+  }
+  .p-social_shake_img {
+    position: relative;
+    height: 505px;
+  }
+  .p-social_shake_img_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 505px;
+    background-image: url("/assets/images/social/index/img-shake-pc.jpg");
+  }
+  .p-social_shake_img_txt {
+    width: 41%;
+    margin: 0;
+    padding: 60px;
+  }
+  .p-social_shake_img_txt_title {
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  .p-social_shake_img_txt_sent {
+    font-size: 1.6rem;
+  }
+  .p-social_shake_img_txt_btn {
+    margin-top: 45px;
+    text-align: center;
+  }
+  .p-social_shake_img_txt_btn .m-btn {
+    display: inline-block;
+    max-width: auto;
+    padding: 16px 15px;
+  }
+}

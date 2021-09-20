@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* sp/bar_exam/ page Module
+* sp/bar_exam/ ページ用
+-------------------------------------------------- */
+.p-bar_exam {
+  /* -----------------------------------------------
+  * .m-talk
+  * ***
+  -------------------------------------------------- */
+}
+
+.p-bar_exam .m-talk {
+  /* pc */
+}
+
+.p-bar_exam .m-talk dl {
+  margin-bottom: 20px;
+  line-height: 1.9;
+}
+
+.p-bar_exam .m-talk dt {
+  font-weight: bold;
+  float: left;
+  width: 80px;
+}
+
+.p-bar_exam .m-talk dd {
+  margin-left: 90px;
+}
+
+@media (min-width: 992px) {
+  .p-bar_exam .m-talk dl {
+    margin-bottom: 24px;
+  }
+  .p-bar_exam .m-talk dd {
+    margin-left: 120px;
+  }
+}

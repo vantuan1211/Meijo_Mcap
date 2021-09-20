@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* english/index.html page Module
+* english/index.html ページ用
+-------------------------------------------------- */
+.p-englishtop_nobel {
+  padding: 40px 6.25% 45px;
+  background: #b7193f;
+  color: #ffffff;
+  /* pc */
+}
+
+.p-englishtop_nobel h2 {
+  color: #ffffff;
+  margin: 0 0 20px;
+}
+
+.p-englishtop_nobel_txt_catch {
+  margin-bottom: 20px !important;
+  line-height: 1.2 !important;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.p-englishtop_nobel_txt_sent {
+  font-size: 1.2rem;
+}
+
+.p-englishtop_nobel_img img {
+  width: 100%;
+}
+
+.p-englishtop_nobel_img_btn {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.p-englishtop_nobel_img_btn .m-btn {
+  display: block;
+  max-width: 265px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  .p-englishtop_nobel {
+    position: relative;
+    background: transparent;
+    margin: 90px auto 0;
+    padding: 0;
+  }
+  .p-englishtop_nobel_wrap {
+    position: relative;
+    padding-top: 60px;
+  }
+  .p-englishtop_nobel_txt {
+    width: 94%;
+    height: 494px;
+    padding-top: 90px;
+    background: #b7193f;
+  }
+  .p-englishtop_nobel_txt > * {
+    width: 38%;
+    padding: 0 50px;
+  }
+  .p-englishtop_nobel_txt_catch {
+    margin-bottom: 30px !important;
+    font-size: 2rem;
+  }
+  .p-englishtop_nobel_txt_sent {
+    line-height: 1.7 !important;
+    font-size: 1.6rem;
+  }
+  .p-englishtop_nobel_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64.5%;
+  }
+  .p-englishtop_nobel_img_btn {
+    margin-top: 35px;
+    text-align: center;
+  }
+  .p-englishtop_nobel_img_btn .m-btn {
+    display: inline-block;
+    max-width: none;
+  }
+}
+
+/* -----------------------------------------------
+* english/student_life/support.html page Module
+* english/student_life/support.html ページ用
+-------------------------------------------------- */
+.p-support_accomodation .m-box_table_item > img {
+  width: auto;
+}
+
+/* -----------------------------------------------
+* english/about/greetings.html page Module
+* english/about/greetings.html ページ用
+-------------------------------------------------- */
+.p-greetings_box .m-box_note {
+  margin-top: 0;
+}
+
+.p-greetings_box .m-hdg_lv2-headline {
+  margin-bottom: 0;
+}
+
+/* -----------------------------------------------
+* english/about/mind.html page Module
+* english/about/mind.html ページ用
+-------------------------------------------------- */
+.p-mind {
+  /* pc */
+}
+
+.p-mind_spilit {
+  background: url(/assets/images/english/about/mind/bg-mind.jpg) no-repeat center;
+  background-size: cover;
+  padding: 1px 0;
+}
+
+.p-mind_spilit .m-box_table {
+  padding: 0 0 40px;
+}
+
+.p-mind_spilit .m-box_table_item {
+  margin: 0;
+}
+
+.p-mind_spilit_inner {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.p-mind_spilit_box {
+  padding: 15px 20px 0;
+}
+
+.p-mind_spilit .p-mind_spilit_kanji {
+  font-family: YuMincho, 'Yu Mincho', serif;
+  font-size: 30px;
+  text-align: center;
+  color: #b7193f;
+  margin-bottom: 0;
+}
+
+.p-mind_spilit .p-mind_spilit_title {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.p-mind_spilit .p-mind_spilit_text {
+  margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .p-mind_spilit {
+    padding: 1px 0 85px;
+  }
+  .p-mind_spilit .m-box_table {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .p-mind_spilit .m-box_table_item {
+    padding: 0;
+  }
+  .p-mind_spilit_box {
+    padding: 30px 25px 50px;
+  }
+  .p-mind_spilit .p-mind_spilit_kanji {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .p-mind_spilit .p-mind_spilit_title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .p-mind_spilit .p-mind_spilit_text {
+    text-align: left;
+  }
+}
+
+/* -----------------------------------------------
+* english/academics/sci_tech/ /laboratory.html page Module
+* english/academics/sci_tech/ /laboratory.html ページ用
+-------------------------------------------------- */
+/* pc */
+@media (min-width: 992px) {
+  #electrical .m-box_right,
+  #mathematics .m-box_right,
+  #chemistry .m-box_right {
+    width: 200px;
+  }
+}

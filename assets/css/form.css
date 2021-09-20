@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* -----------------------------------------------
+* contact/form page Module
+* contact/form ページ用
+-------------------------------------------------- */
+.p-form-table {
+  /* sp */
+  /* pc */
+}
+
+.p-form-table table {
+  width: 100%;
+}
+
+.p-form-table table th, .p-form-table table td {
+  font-size: 1.2rem;
+}
+
+.p-form-table table th {
+  padding: 20px 0 15px;
+  font-weight: normal;
+}
+
+.p-form-table table th .p-form-table_required {
+  margin-left: 7px;
+  padding: 0 5px;
+  border-radius: 3px;
+  border: 1px solid #b7193f;
+  color: #b7193f;
+  font-size: 1rem;
+}
+
+.p-form-table table td {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dedede;
+}
+
+.p-form-table table td p {
+  margin-bottom: 0;
+}
+
+.p-form-table table td .m-box_select > p {
+  border: none;
+  background: #f6f5f2;
+}
+
+.p-form-table table td input, .p-form-table table td textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 0;
+  border: none;
+  background: #f6f5f2;
+}
+
+.p-form-table table td textarea {
+  height: 120px;
+}
+
+.p-form-table table td.p-form-table_num {
+  letter-spacing: -0.4em;
+}
+
+.p-form-table table td.p-form-table_num > * {
+  letter-spacing: normal;
+}
+
+.p-form-table table td.p-form-table_num input, .p-form-table table td.p-form-table_num span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.p-form-table table td.p-form-table_num span {
+  text-align: center;
+}
+
+.p-form-table table td .p-form-table_title {
+  margin-bottom: 0;
+}
+
+.p-form-table table td .p-form-table_title:first-child {
+  margin-top: 0 !important;
+}
+
+.p-form-table table td #err {
+  margin-top: 5px;
+  color: #b7193f !important;
+}
+
+@media (max-width: 991px) {
+  .p-form-table table th, .p-form-table table td {
+    display: block;
+  }
+  .p-form-table table th {
+    color: #444444;
+    font-size: 1.4rem;
+  }
+  .p-form-table table td .m-box_select {
+    max-width: 100%;
+    width: 100%;
+  }
+  .p-form-table table td.p-form-table_num input {
+    width: 30%;
+  }
+  .p-form-table table td.p-form-table_num input.large {
+    width: 50%;
+  }
+  .p-form-table table td.p-form-table_num span {
+    width: 5%;
+  }
+  .p-form-table table td .p-form-table_title {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .p-form-table table th, .p-form-table table td {
+    font-size: 1.6rem;
+  }
+  .p-form-table table th {
+    width: 35%;
+    padding: 13px 10px 13px 0;
+    border-bottom: 1px solid #dedede;
+  }
+  .p-form-table table th .p-form-table_required {
+    margin-left: 10px;
+  }
+  .p-form-table table td {
+    width: 65%;
+    padding: 25px 0 25px 10px;
+  }
+  .p-form-table table td .m-box_select {
+    max-width: 280px;
+  }
+  .p-form-table table td.p-form-table_num input {
+    width: 120px;
+  }
+  .p-form-table table td.p-form-table_num input.large {
+    width: 250px;
+  }
+  .p-form-table table td.p-form-table_num span {
+    width: 20px;
+  }
+  .p-form-table table td .p-form-table_title {
+    margin-top: 30px;
+  }
+  .p-form-table table td #err,
+  .p-form-table table td .p-form-table_txt {
+    font-size: 1.4rem;
+  }
+}
+
+.m-table_common {
+  overflow-x: hidden;
+  /* sp */
+  /* pc */
+}
+
+.m-table_common #err {
+  color: #b7193f !important;
+}
+
+.m-table_common_noscroll table {
+  width: 100%;
+}
+
+.m-table_common_noscroll table th, .m-table_common_noscroll table td {
+  white-space: normal !important;
+}
+
+@media (max-width: 991px) {
+  .m-table_common #err {
+    margin-bottom: 20px;
+  }
+  .m-table_common table td {
+    padding: 7px;
+  }
+}
+
+@media (min-width: 992px) {
+  .m-table_common #err {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+  }
+}
+
+.p-form-btn {
+  margin: 30px auto;
+  /* sp */
+  /* pc */
+}
+
+.p-form-btn_return a {
+  color: #b7193f;
+}
+
+@media (max-width: 991px) {
+  .p-form-btn_return {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .p-form-btn {
+    position: relative;
+    margin: 60px auto;
+  }
+  .p-form-btn_return {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -0.5em;
+  }
+}
+
+.l-pagetop {
+  /* sp */
+  /* pc */
+}
+
+@media (max-width: 991px) {
+  .l-pagetop {
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 992px) {
+  .l-pagetop {
+    margin-top: 230px;
+  }
+}

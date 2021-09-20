@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.l-header,
+.bnr-top-meijodiamond-pc,
+.bnr-top-meijodiamond-sp,
+.l-footer,
+.l-pagenav,
+.l-pagetop,
+.p-top_main,
+.p-top_collegelife,
+.p-top_banner,
+.p-top_event,
+.m-box_feature,
+.m-box_pagenav
+ {
+	display: none;
+}
