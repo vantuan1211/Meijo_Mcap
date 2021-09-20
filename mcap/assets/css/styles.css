@@ -2760,7 +2760,7 @@ print {
 
 .box-story-info__content {
     display: table-cell;
-    width: 52%;
+    width: 51%;
     vertical-align: top;
     padding: 30px 0 24px
 }
